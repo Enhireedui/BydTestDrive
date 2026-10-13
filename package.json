@@ -1,0 +1,14 @@
+{
+  "name": "byd-test-drive",
+  "private": true,
+  "type": "module",
+  "description": "BYD Test Drive Event 2026.10.03 — Sain Motors registration landing page",
+  "scripts": {
+    "dev": "node dev/server.mjs",
+    "test": "node --test tests/apps-script.test.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}
